@@ -8,6 +8,7 @@ import analysis from "@/page/main/analysis";
 import Result from "@/page/main/Result";
 
 const routes = [
+    {path: '/', component: Login},
     {path: '/login', component: Login},
     {
         path: '/home', component: Home, children: [
